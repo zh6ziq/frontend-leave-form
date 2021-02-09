@@ -10,7 +10,8 @@
 </template>
 
 <style>
-html, body {
+html,
+body {
   background: black;
 }
 

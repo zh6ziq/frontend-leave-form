@@ -20,8 +20,8 @@ export default {
   name: "Form",
   components: {
     LeaveForm,
-    CheckForm,
-  },
+    CheckForm
+  }
 };
 </script>
 

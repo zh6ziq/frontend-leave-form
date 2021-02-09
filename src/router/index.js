@@ -9,7 +9,7 @@ const routes = [
     path: "/",
     name: "Form",
     component: Form
-  },
+  }
 ];
 
 const router = new VueRouter({

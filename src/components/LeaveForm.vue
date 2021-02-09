@@ -96,17 +96,17 @@ export default {
         department: null,
         fromdate: "",
         todate: "",
-        text: "",
+        text: ""
       },
       departments: [
         {
           text: "--Select--",
-          value: null,
+          value: null
         },
         "Administration",
         "Technical",
-        "Logistic",
-      ],
+        "Logistic"
+      ]
     };
   },
 
@@ -117,8 +117,8 @@ export default {
       this.$http.post(`http://localhost:3000/forms`, this.form).then(() => {
         this.form = {};
       });
-    },
-  },
+    }
+  }
 };
 </script>
 

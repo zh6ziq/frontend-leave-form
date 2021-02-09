@@ -63,8 +63,8 @@ export default {
     return {
       forms: [],
       form: {
-        email: "",
-      },
+        email: ""
+      }
     };
   },
 
@@ -73,16 +73,16 @@ export default {
       const email = this.form.email;
       this.$http
         .get(`http://localhost:3000/forms/${email}`)
-        .then((res) => {
+        .then(res => {
           this.form.email = "";
           this.forms = res.data;
           console.log(res.data);
         })
-        .catch((err) => {
+        .catch(err => {
           console.log(err);
         });
-    },
-  },
+    }
+  }
 };
 </script>
 
